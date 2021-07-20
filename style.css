@@ -130,9 +130,13 @@ a {
   height: 100%;
 }
 .intro-face {
-  margin-right: 7vw;
+  margin-right: 8vw;
+  margin-top: 5vh;
 }
-
+.intro-face img {
+  width: 400px;
+  height: auto;
+}
 /* hr showcase start*/
 .images {
   width: 100%;
