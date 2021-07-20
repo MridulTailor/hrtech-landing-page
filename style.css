@@ -256,6 +256,10 @@ a {
   border-top: 1px solid #e5e5e5;
   justify-content: space-between;
 }
+.footer-logo {
+  font-family: "Bangers", sans-serif;
+  font-size: 40px;
+}
 .footer a,
 h1,
 h2,
