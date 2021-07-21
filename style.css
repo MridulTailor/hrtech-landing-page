@@ -246,6 +246,53 @@ a {
 .grid-item p {
   font-size: 17px;
 }
+/* testimonial */
+.testimonial {
+  width: 100%;
+  height: max-content;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+.testimonial strong {
+  color: #ea9828;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -1.19;
+  margin-left: 20vw;
+}
+.carousel {
+  margin-top: 40px;
+  background: none;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-cell {
+  width: 480px;
+  height: 300px;
+  margin-right: 10px;
+  margin-bottom: 5vh;
+  background: whitesmoke;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-cell h4 {
+  font-size: 28px;
+  color: #121212;
+  padding: 25px;
+  font-weight: 500;
+  letter-spacing: -0.7;
+  line-height: 36px;
+}
+.author-wrapper {
+  padding-bottom: 10px;
+}
 /* footer */
 .footer {
   display: flex;
@@ -255,6 +302,7 @@ a {
   background-color: #fff;
   border-top: 1px solid #e5e5e5;
   justify-content: space-between;
+  margin-top: 10vh;
 }
 .footer-logo {
   font-family: "Bangers", sans-serif;
